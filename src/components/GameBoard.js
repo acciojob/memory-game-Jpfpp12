@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import Tile from "./Tile.js";
-import { clickTile, resetSelection } from "../store/gameSlice.js";
+import { clickTile, resetSelection } from "./gameSlice.js";
 
 const levelConfig = {
   easy: 4,
