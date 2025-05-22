@@ -28,7 +28,7 @@ const App = () => {
     <div>
       <h1>Welcome!</h1>
       <section className="levels_container">
-        <h4>{levelConfig[level] || 0}</h4>
+        <h4>{level ? levelConfig[level] : 0}</h4>
         <LevelSelector level={level} onChange={handleLevelChange} />
         <button onClick={handleStart} data-testid="start-button">Start Game</button>
       </section>
