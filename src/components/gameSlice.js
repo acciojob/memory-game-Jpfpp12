@@ -15,7 +15,7 @@ function shuffle(array) {
 }
 
 const initialState = {
-  level: "easy",
+  level: "",
   started: false,
   tiles: [],
   first: null,
